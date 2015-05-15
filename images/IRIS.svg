@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="111px" height="42px" viewBox="0 0 111 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>IRIS Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.54105544%" y1="2.51614315%" x2="58.9603245%" y2="163.145185%" id="linearGradient-1">
+            <stop stop-color="#3151E0" offset="0%"></stop>
+            <stop stop-color="#625FE1" offset="39.4391683%"></stop>
+            <stop stop-color="#B779E4" offset="100%"></stop>
+            <stop stop-color="#D983E5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-388.000000, -181.000000)" fill="url(#linearGradient-1)">
+            <path d="M400.36,222 L400.36,181.98 L388.24,181.98 L388.24,222 L400.36,222 Z M442.66,222 L435.4,207.84 C438.58,206.28 442.6,202.62 442.6,195.72 C442.6,188.22 437.56,181.98 428.2,181.98 L406.84,181.98 L406.84,222 L418.96,222 L418.96,209.4 L423.34,209.4 L428.86,222 L442.66,222 Z M426.34,198.84 L418.96,198.84 L418.96,192.54 L426.34,192.54 C428.38,192.54 430.3,193.5 430.3,195.66 C430.3,197.88 428.38,198.84 426.34,198.84 L426.34,198.84 Z M459.64,222 L459.64,181.98 L447.52,181.98 L447.52,222 L459.64,222 Z M481.66,222.72 C492.4,222.72 498.94,217.62 498.94,208.8 C498.94,193.92 476.68,197.16 476.68,193.38 C476.68,192.36 477.34,191.58 479.74,191.58 C483.52,191.58 488.02,192.9 491.5,195.54 L497.98,186.96 C493.42,183.24 487.54,181.38 481,181.38 C470.02,181.38 464.38,187.86 464.38,194.64 C464.38,210.42 486.7,206.52 486.7,210.36 C486.7,211.92 484.54,212.52 482.26,212.52 C476.86,212.52 472.36,210.24 469.36,207.36 L463.06,216.36 C467.32,220.2 473.14,222.72 481.66,222.72 L481.66,222.72 Z" id="IRIS-Copy" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

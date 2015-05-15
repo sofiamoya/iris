@@ -1,0 +1,230 @@
+body {
+	font-family: "Fira Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #213235;
+}
+
+p {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+    color: #919191;
+}
+
+p.white-text{
+	color: #fff;
+	font-size: 16px;
+}
+
+a {
+    color: #919191;
+}
+
+a:hover {
+   text-decoration: none;
+   color: #7665E2;
+}
+
+li.add-padding-bottom {
+	padding-bottom: 20px;
+}
+
+.titulo-pasos {
+	font-family:"Nunito";
+	font-size: 18px;
+	padding-top: 20px;
+}
+
+.titulo-pasos-select {
+    font-family:"Nunito";
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+p.titulo-pasos-select:hover {
+    font-family:"Nunito";
+    font-size: 18px;
+    padding-top: 20px;
+    color: #FEC800;
+
+}
+
+.navbar-brand{
+	padding: 10px 10px;
+}
+
+.navbar-header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.navbar-static-top .navbar-nav>li>a {
+    color: #919191;
+	font-size: 12px;
+}
+
+.navbar-static-top .navbar-nav>li>a:hover {
+    color: #7665E2;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#banner{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+    background-color: #fff;
+}
+
+h2 {
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+    color: #7665E2;
+    margin-top: 10px;
+}
+
+.container {
+	padding-left: 40px;
+	padding-right: 40px;
+    padding-top: 10px;
+}
+
+div.container-resultados {
+    margin-top: 45px;
+}
+
+.container-parrafo {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.resize-image {
+	max-width: 100%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #213235;
+	border-radius: 5px;
+}
+
+.image-container{
+	padding-bottom: 20px;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+
+.logo-resize {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.patrocinios {
+    float: right;
+    display: inline;
+}
+
+.texto-patrocinio {
+    display: inline;
+    margin-right: 10px;
+}
+
+div.bottom-image{
+    position: fixed;
+    margin-left: -3px; /* very important for the image to be centered */
+    bottom:0px;
+    margin-bottom: 25px;
+}
+
+#url {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    float: none;
+    max-width:550px;
+}
+
+.form-control {
+    display: table-cell;
+    max-width:550px;
+}
+
+.footer {
+	background-color: #FEC800;
+	height: 100%
+	text-align: center;
+	padding: 30px;
+	max-width: 100%
+}
+
+/*Animations*/
+
+.hvr-round-corners {
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    background-color: #7665E2;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 60px;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: border-radius;
+    transition-property: border-radius;
+}
+.hvr-round-corners:hover, .hvr-round-corners:focus, .hvr-round-corners:active {
+    border-radius: 7px;
+    color: #fff;
+    background-color: #5547AD;
+}
+
+a.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+a.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.float {
+    margin-bottom: 15px;
+    -webkit-animation-name: Floating;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floating{
+    from {-webkit-transform:translate(0, 0px);}
+    60% {-webkit-transform:translate(0, 20px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
